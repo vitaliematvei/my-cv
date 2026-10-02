@@ -30,7 +30,7 @@ export default function HeroSection() {
     <section
       id="about"
       aria-labelledby="hero-title"
-      className="scroll-mt-24 pt-28 md:pt-40 pb-12 flex flex-col justify-between items-center min-h-[calc(100vh-5rem)] overflow-hidden"
+      className="scroll-mt-24 pt-28 md:pt-40 pb-10 md:pb-16 flex flex-col justify-between items-center min-h-[calc(100vh-5rem)] overflow-hidden"
     >
       {/* Structură Flex/Grid pe 2 Coloane (Stânga: Text, Dreapta: Foto) */}
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-12 my-auto">

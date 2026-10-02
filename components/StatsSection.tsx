@@ -6,7 +6,7 @@ export default function StatsSection() {
   return (
     <section
       aria-labelledby="stats-title"
-      className="space-y-10 md:space-y-12 py-8"
+      className="space-y-10 md:space-y-12 py-10 md:py-16"
     >
       <div className="text-center max-w-4xl mx-auto space-y-4">
         {/* Titlu cu ierarhie vizuală clară */}

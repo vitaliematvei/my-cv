@@ -1,13 +1,12 @@
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import StatsSection from '@/components/StatsSection';
-/* import TechArsenal from '@/components/TechArsenal';
+import TechArsenal from '@/components/TechArsenal';
 import ExperienceTimeline from '@/components/ExperienceTimeline';
 import ProjectsSection from '@/components/ProjectsSection';
 import EducationSection from '@/components/EducationSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
- */
 export default function Home() {
   return (
     <main
@@ -20,19 +19,19 @@ export default function Home() {
       <Navbar />
       <div
         id="main-content"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24 md:space-y-32 pt-4 md:py-12"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 md:space-y-16 pt-4 md:py-12"
       >
         <HeroSection />
         <div id="skills" className="scroll-mt-24">
           <StatsSection />
         </div>
-        {/* <TechArsenal />
+        <TechArsenal />
         <ExperienceTimeline />
         <ProjectsSection />
         <EducationSection />
-        <ContactSection /> */}
+        <ContactSection />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }

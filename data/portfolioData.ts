@@ -6,13 +6,13 @@ export const personalInfo = {
   quote: '"Transforming complex ideas into clean, scalable code."',
   microQuote: '// Powered by Next.js, TypeScript, and AI-driven workflows.',
   aboutParagraphs: [
-    'Results-driven and passionate Full Stack Developer with over 2 years of practical experience building, optimizing, and deploying modern web applications. Specialized in React and Next.js, with a deep understanding of Component-Based Development and relational databases (SQL).',
+    'Results-driven and passionate Full Stack Developer with over 2 years of practical experience building, optimizing, and deploying modern web applications. Specialized in React and Next.js, with a deep understanding of Component-Based Development.',
     'Highly proficient in leveraging cutting-edge AI tools (GitHub Copilot, Gemini) to accelerate development workflows and write clean, efficient code. An agile team player who thrives in collaborative environments, adheres to strict deadlines, and delivers high-quality, reusable code.',
   ],
   stats: [
     { label: 'YEARS EXPERIENCE', value: '2+' },
     { label: 'PRIMARY STACK', value: 'Next.js & React' },
-    { label: 'FEATURED PROJECT', value: 'Setkorg.com' },
+    { label: 'FEATURED PROJECT', value: 'setkorg.com' },
     { label: 'LOCATION', value: 'Ialoveni, MD' },
     { label: 'DEV WORKFLOW', value: 'AI-Augmented' },
   ],
